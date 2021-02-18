@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 1;
 }
 .main-info h1{
     color: var(--primary-orange);
@@ -31,6 +32,11 @@
     font-size: 2rem;
     color: var(--primary-white);
 }
+@media(max-width: 768px){
+    .typed-text{
+        font-size: 1.3rem !important;
+    }
+}
 .btn-main{
     border: 1px solid  var(--primary-red);
     text-transform: uppercase;
@@ -38,4 +44,10 @@
     padding: 10px 12px 12px 12px;
     color: var(--primary-white);
     margin: 2rem;
+}
+.btn-main:hover {
+    text-decoration: none;
+    background-color: var(--primary-hover-red);
+    color: var(--primary-white);
+    transition: 0.2s ease-in-out;
 }

@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-dark">
             <div className="container">
                 {/* <a className="navbar-brand" href="#">LOGO</a> */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pojects</a>
+                            <a className="nav-link" href="#">Projects</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contact Me</a>

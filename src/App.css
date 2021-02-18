@@ -3,5 +3,12 @@
 body{
     font-family: "Varela Round" sans-serif;
 }
-
+@media(max-width: 768px){
+    .particles-canvas {
+        display: none;
+    }
+    .main-info h1{
+        font-size: 1.7rem !important;
+    }
+}
 
