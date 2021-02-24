@@ -2,7 +2,7 @@ import "./About.css"
 const About = () => {
     return (
 
-        <div class="about">
+        <div class="about bg-light" id="about">
             <h1 class="title">ABOUT ME</h1>
             <div class="para-text">
                 <p>I'm Bakhos Ibrahim-Rachwan I graduated from University of Balamand with B.Eng. in Mechanical Engineering.

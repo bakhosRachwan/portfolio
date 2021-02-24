@@ -1,0 +1,20 @@
+.contact{
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.media-title{
+    margin-top: 50px;
+}

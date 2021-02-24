@@ -1,7 +1,10 @@
 .card{
     width: 450px;
-    height: 700px;
-    border: 5px solid black;
+    height: 650px;
+    border: 1px solid;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(185, 164, 164, 0.5), 0 6px 20px 0 rgba(156, 142, 142, 0.473);
 }
 img{
     width: 450px;

@@ -4,6 +4,10 @@ import Navbar from "./components/Navbar/Navbar"
 import Header from "./components/Header/Header"
 import Particle from "./components/Particles/Particle"
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Projects from './pages/Projects/Projects';
+
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +15,8 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
