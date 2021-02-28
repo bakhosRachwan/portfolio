@@ -8,7 +8,7 @@ const About = () => {
                 <p>I'm Bakhos Ibrahim-Rachwan I graduated from University of Balamand with B.Eng. in Mechanical Engineering.
                 Refusing to wait helplessly for a job oppurtunity during the Covid-19 pandemic.
                     </p>
-                <p>I joined an immersive bootcamp provided by Re:Coded. During the bootcamp I learned technologies like Javascript, CSS, HTML and ReactJS.
+                <p>I joined an immersive bootcamp provided by Re:Coded, which has an acceptance rate of less than 6%. During the bootcamp I learned technologies like Javascript, CSS, HTML and ReactJS.
                 Along with completeing a Web Development course with Flatiron School.
                     </p>
                 <p>I'm constantly learning new things. currently those things include gaining more experience with React Native and Python</p>
