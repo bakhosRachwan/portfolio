@@ -14,7 +14,7 @@ const Projects = () => {
         {
             name: "Movie App",
             img: movieImg,
-            description: "An App that fetches movies information from TMDB API and you can search by name and genre. also each movie lists ratinf trailer and actress information.",
+            description: "An App that fetches movies from TMDB API and you can search by name and genre. Each movie lists rating, trailer and actress information.",
             link: "https://github.com/bakhosRachwan/movie-app-react-js"
         }
     ]
