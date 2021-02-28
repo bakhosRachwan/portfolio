@@ -14,3 +14,12 @@ p{
     text-transform: capitalize;
     word-wrap: normal;
 }
+@media(max-width: 768px){
+    .card{
+        width: 350px;
+        height: 650px;
+    }
+    p{
+        font-size: 15px;
+    }
+}

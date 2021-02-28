@@ -18,3 +18,9 @@
 .media-title{
     margin-top: 50px;
 }
+@media(max-width: 768px){
+    .subtitle{
+        text-align: center;
+        line-height: 30px;
+    }
+}
