@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 
 const Contact = () => {
     return ( 
-        <div className="contact bg-light" id="contact">
+        <div className="contact bg-dark" id="contact">
             <h1>Contact me</h1>
             <h4 className="subtitle">You can always reach out to me for collaboration work, assistance or job vacancies </h4>
             <p>Email: <a href="mailto: bakhos.rachwan@gmail.com">bakhos.rachwan@gmail.com</a></p>

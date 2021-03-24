@@ -34,6 +34,13 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
+                                <Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={500}>
+                                    Skills
+                                </Link>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
                                 <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
                                     Contact Me
                                 </Link>

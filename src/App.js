@@ -6,6 +6,7 @@ import Particle from "./components/Particles/Particle"
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
+import Skills from './pages/Skills/Skills';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <About />
       <Projects />
+      <Skills />
       <Contact />
     </div>
   );
