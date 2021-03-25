@@ -12,6 +12,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 150px;
 }
+.projects > .title {
+  color: white;
+}
 @media(max-width: 768px){
   .grid{
     display: flex;

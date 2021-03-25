@@ -4,6 +4,7 @@ import todoImg from "./todo.png";
 
 export const projects =[
     {
+        id: 1,
         name: "Portfolio",
         img: portfolioImg,
         description: "My personal website the one you are in right now feel free to check the code on github.",
@@ -11,6 +12,7 @@ export const projects =[
         demo: "https://bakhos-rachwan.netlify.app/"
     },
     {
+        id: 2,
         name: "Movie App",
         img: movieImg,
         description: "An App that fetches movies from TMDB API and you can search by name and genre. Each movie lists rating, trailer and actress information.",
@@ -18,6 +20,7 @@ export const projects =[
         demo: "https://mjbs-movie-app.netlify.app/"
     },
     {
+        id: 3,
         name: "Todo List",
         img: todoImg,
         description: "Todo list app that manages tasks.",
