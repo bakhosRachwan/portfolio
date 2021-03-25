@@ -2,9 +2,9 @@ import "./About.css"
 const About = () => {
     return (
 
-        <div class="about bg-light" id="about">
-            <h1 class="title">ABOUT ME</h1>
-            <div class="para-text">
+        <div className="about bg-light" id="about">
+            <h1 className="title">ABOUT ME</h1>
+            <div className="para-text">
                 <p>I'm Bakhos Ibrahim-Rachwan I graduated from University of Balamand with B.Eng. in Mechanical Engineering.
                 Refusing to wait helplessly for a job oppurtunity during the Covid-19 pandemic.
                     </p>
