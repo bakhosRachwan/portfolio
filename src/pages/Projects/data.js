@@ -2,6 +2,7 @@ import movieImg from "./movies.png";
 import portfolioImg from "./portfolio.png";
 import todoImg from "./todo.png";
 import quizImg from "./quiz-1.jpg";
+import dnlImg from "./dnl.jpg";
 
 export const projects =[
     {
@@ -14,6 +15,14 @@ export const projects =[
     },
     {
         id: 2,
+        name: "Discover North Lebanon",
+        img: dnlImg,
+        description: "Discover North Lebanon is a web application built with reactjs. It allows you to explore different cities and activities that can be done in north Lebanon.",
+        link: "https://github.com/bakhosRachwan/discover-north-lebanon",
+        demo: "https://discover-north-lebanon-450b7.web.app/"
+    },
+    {
+        id: 3,
         name: "Movie App",
         img: movieImg,
         description: "An App that fetches movies from TMDB API and you can search by name and genre. Each movie lists rating, trailer and actress information.",
@@ -21,7 +30,7 @@ export const projects =[
         demo: "https://mjbs-movie-app.netlify.app/"
     },
     {
-        id: 3,
+        id: 4,
         name: "Todo List",
         img: todoImg,
         description: "Todo list app that manages tasks.",
@@ -29,7 +38,7 @@ export const projects =[
         demo: "https://ecstatic-todo.netlify.app/"
     },
     {
-        id: 4,
+        id: 5,
         name: "Trivia quiz app",
         img: quizImg,
         description: "Like the name implies its a questions game. the app fetches questions from API and the user can choose from different settings.",
@@ -37,7 +46,7 @@ export const projects =[
         demo: "https://trivia-quiz-night-app.netlify.app/"
     },
     {
-        id: 5,
+        id: 6,
         name: "Wallet Manager",
         img: "https://img.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg?size=338&ext=jpg",
         description: "Your electronic Wallet thet keep track of all you Income and Expenses.",
