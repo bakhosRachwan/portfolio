@@ -3,6 +3,7 @@ import portfolioImg from "./portfolio.png";
 import todoImg from "./todo.png";
 import quizImg from "./quiz-1.jpg";
 import dnlImg from "./dnl.jpg";
+import walletImg from "./wallet.jpg";
 
 export const projects =[
     {
@@ -48,9 +49,9 @@ export const projects =[
     {
         id: 6,
         name: "Wallet Manager",
-        img: "https://img.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg?size=338&ext=jpg",
+        img: walletImg,
         description: "Your electronic Wallet thet keep track of all you Income and Expenses.",
         link: "https://github.com/bakhosRachwan/the-wallet-manager",
-        demo: ""
+        demo: "https://the-wallet-manager.firebaseapp.com/signup"
     }
 ]
