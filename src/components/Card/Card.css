@@ -14,12 +14,40 @@ p{
     text-transform: capitalize;
     word-wrap: normal;
 }
+.profile-card{
+    margin-top:20px;
+}
+.profile-card .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card h5{
+    margin-top: 8px;
+    font-weight:600;
+}
+.profile-card p{
+    font-weight:300;
+}
+
 @media(max-width: 768px){
     .card{
         width: 350px;
         height: 650px;
     }
-    p{
+    .profile-card p{
         font-size: 15px;
     }
 }
