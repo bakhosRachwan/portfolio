@@ -1,6 +1,6 @@
 import "./Header.css";
 import Typed from "react-typed"
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 const Header = () => {
     return (  
         <div className="header-wrapper" id="main">
@@ -14,11 +14,11 @@ const Header = () => {
                     loop
                 />
 
-                <a href="#!" className="btn-main">
-                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
+                    <Link to="/contact" style={{textDecoration: "none"}}>
+                <button className="btn">
                         Contact Me
+                </button>      
                     </Link>
-                </a>      
             </div>
         </div>
     );

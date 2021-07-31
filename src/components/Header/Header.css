@@ -1,16 +1,11 @@
-:root{
-    --primary-red: #5589e2;
-    --primary-hover-red: #5589e2;
-    --primary-orange: #1dba9e;
-    --primary-white: #fff;
-}
 .header-wrapper{
     position: relative;
     background: rgb(195,231,232);
     background: linear-gradient(150deg, rgba(195,231,232,1) 0%, rgba(230,177,224,1) 50%, rgba(250,183,147,1) 100%); 
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 59px);
+    height: 100vh;
+    /* height: calc(100vh - 59px); */
 }
 .main-info{
     position: absolute;
@@ -26,12 +21,12 @@
     z-index: 1;
 }
 .main-info h1{
-    color: var(--primary-orange);
+    color: #1dba9e;
     text-transform: uppercase;
 }
 .typed-text{
     font-size: 2rem;
-    color: var(--primary-white);
+    color: white;
 }
 @media(max-width: 768px){
     .header-wrapper{
@@ -41,18 +36,19 @@
         font-size: 1.3rem !important;
     }
 }
-.btn-main{
-    border: 1px solid  var(--primary-red);
+.btn{
+    border: 2px solid#5589e2;
     border-radius: 14px;
     text-transform: uppercase;
-    border-radius: 0;
     padding: 10px 12px 12px 12px;
-    color: var(--primary-white);
+    color: #5589e2;
     margin: 2rem;
+    background: white;
 }
-.btn-main:hover {
+.btn:hover {
     text-decoration: none;
-    background-color: var(--primary-hover-red);
-    color: var(--primary-white);
+    background-color: #5589e2;
+    border: 2px solid white;
+    color: white;
     transition: 0.2s ease-in-out;
 }

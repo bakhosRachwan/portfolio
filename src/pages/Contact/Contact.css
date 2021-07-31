@@ -1,6 +1,8 @@
 .contact{
     height: 100vh;
-    color: white;
+    background: rgb(195,231,232);
+    background: linear-gradient(230deg, rgba(195,231,232,1) 10%, rgba(214,202,228,1) 37%, rgba(230,177,224,1) 60%, rgba(250,183,147,1) 90%); 
+    color:#1dba9e;
     display: flex;
     flex-direction: column;
     justify-content: center;

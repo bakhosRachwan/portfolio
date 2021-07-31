@@ -1,10 +1,13 @@
 .card{
     width: 450px;
     height: 650px;
-    border: 1px solid;
+    border-radius: 14px;
+    margin: 50px;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(185, 164, 164, 0.5), 0 6px 20px 0 rgba(156, 142, 142, 0.473);
 }
 .card:hover{
-    box-shadow: 0 4px 8px 0 rgba(185, 164, 164, 0.5), 0 6px 20px 0 rgba(156, 142, 142, 0.473);
+    transform: scale(1.1);
 }
 img{
     width: 450px;
@@ -31,8 +34,9 @@ p{
     
 }
 .profile-card .card-img-block img{
-    border-radius:5px;
+    border-radius: 14px;
     box-shadow:0 0 10px rgba(0,0,0,0.63);
+    object-fit: cover;
 }
 .profile-card h5{
     margin-top: 8px;

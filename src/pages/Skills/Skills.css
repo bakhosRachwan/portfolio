@@ -1,15 +1,22 @@
 .skills {
   height: 100%;
+  background: rgb(195,231,232);
+  background: linear-gradient(45deg, rgba(195,231,232,1) 10%, rgba(214,202,228,1) 37%, rgba(230,177,224,1) 60%, rgba(250,183,147,1) 90%); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scrollbar-width: none;
+}
+.skills::-webkit-scrollbar {
+  width: 0;
+  display: 0;
 }
 .skills h1 {
-  margin: 10% 0 0 0;
+  margin: 6% 0 0 0;
 }
 .technologies {
-  margin: 150px 0 0 150px;
+  margin: 100px 0 0 0px;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-gap: 20px;
@@ -17,6 +24,35 @@
 .technologies img {
   width: 70%;
   height: 70%;
+  
+}
+.technologies a {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+}
+.technologies a:hover img {
+  opacity: 0.3;
+}
+.technologies a:hover .middle {
+  opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: #5589e2;
+  color: white;
+  font-size: 16px;
+  border-radius: 14px;
+  padding: 16px 32px;
 }
 @media (max-width: 650px) {
   .skills h1 {
