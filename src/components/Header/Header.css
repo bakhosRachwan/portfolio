@@ -1,15 +1,16 @@
 :root{
-    --primary-red: #ef4035;
-    --primary-hover-red: #f33501;
-    --primary-orange: #f87022;
+    --primary-red: #5589e2;
+    --primary-hover-red: #5589e2;
+    --primary-orange: #1dba9e;
     --primary-white: #fff;
 }
 .header-wrapper{
     position: relative;
-    background: url(./background.jpg);
+    background: rgb(195,231,232);
+    background: linear-gradient(150deg, rgba(195,231,232,1) 0%, rgba(230,177,224,1) 50%, rgba(250,183,147,1) 100%); 
     background-size: cover;
     background-position: center;
-    height: 93vh;
+    height: calc(100vh - 59px);
 }
 .main-info{
     position: absolute;
@@ -33,12 +34,16 @@
     color: var(--primary-white);
 }
 @media(max-width: 768px){
+    .header-wrapper{
+        height: calc(100vh - 56px);
+    }
     .typed-text{
         font-size: 1.3rem !important;
     }
 }
 .btn-main{
     border: 1px solid  var(--primary-red);
+    border-radius: 14px;
     text-transform: uppercase;
     border-radius: 0;
     padding: 10px 12px 12px 12px;
