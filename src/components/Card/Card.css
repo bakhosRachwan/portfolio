@@ -52,6 +52,9 @@ p{
         height: 650px;
     }
     .profile-card p{
+        height: 40%;
         font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 }
