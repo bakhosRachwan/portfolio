@@ -30,7 +30,7 @@
 }
 @media(max-width: 768px){
     .header-wrapper{
-        height: calc(100vh - 56px);
+        height: 100vh;
     }
     .typed-text{
         font-size: 1.3rem !important;
