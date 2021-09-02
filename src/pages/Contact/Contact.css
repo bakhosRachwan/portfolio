@@ -29,20 +29,20 @@
     margin-top: 50px;
 }
 @media(max-width: 768px){
-    .contact{
-        height: 100%;
+    /* .contact{
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } */
     .mainWrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        /* display: flex; */
+       /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
         width: 90%;
-        margin-top: 75px;
+        /* margin-top: 75px; */
     }
     .subtitle{
         text-align: center;
