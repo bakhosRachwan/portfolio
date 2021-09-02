@@ -6,11 +6,11 @@ const ContactForm = () => {
     e.preventDefault()
     const {name, email, msg} = e.target
     let myForm = {name: name.value, email: email.value, message: msg.value}
-    let formData = new FormData(myForm)
+    // let formData = new FormData(myForm)
     fetch('/', {
       method: 'POST',
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString()
+      body: new URLSearchParams(myForm).toString()
     }).then(() => console.log('Form successfully submitted')).catch((error) =>
       alert(error))
   }
