@@ -2,7 +2,8 @@ import "./ContactForm.css"
 
 const ContactForm = () => {
   return (
-    <form method="POST" data-netlify="true" data-netlify-recaptcha="true" className="forms">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" className="forms">
+      <input type="hidden" name="form-name" value="contact"></input>
       <div class="form-group">
         <label for="fullname">Full Name</label>
         <input
