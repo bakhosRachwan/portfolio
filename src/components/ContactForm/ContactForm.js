@@ -2,7 +2,7 @@ import "./ContactForm.css"
 
 const ContactForm = () => {
   return (
-    <form method="POST" data-netlify={true} className="forms">
+    <form method="POST" data-netlify="true" className="forms">
       <div class="form-group">
         <label for="fullname">Full Name</label>
         <input
@@ -34,7 +34,7 @@ const ContactForm = () => {
           ></textarea>
       </div>
       <div class="form-group">
-        <div data-netlify-recaptcha={true}></div>
+        <div data-netlify-recaptcha="true"></div>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
