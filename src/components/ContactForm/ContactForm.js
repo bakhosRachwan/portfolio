@@ -2,18 +2,25 @@ import "./ContactForm.css"
 
 const ContactForm = () => {
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const {name, email, msg} = e.target
-    let myForm = {name: name.value, email: email.value, message: msg.value}
-    // let formData = new FormData(myForm)
-    fetch('/', {
-      method: 'POST',
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(myForm).toString()
-    }).then(() => console.log('Form successfully submitted')).catch((error) =>
-      alert(error))
+  function encode(data) {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&")
   }
+
+const handleSubmit = (event) => {
+  event.preventDefault()
+  const {name, email, msg} = event.target
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode({
+      "name": name.value,
+      "email": email.value,
+      "message": msg.value,
+    })
+  }).then(() => alert("/thank-you/")).catch(error => alert(error))
+}
   return (
     <form name="contact" method="POST" data-netlify="true" className="forms" onSubmit={handleSubmit}>
       <input type="hidden" name="form-name" value="contact"></input>
