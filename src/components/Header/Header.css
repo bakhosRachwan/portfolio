@@ -1,6 +1,7 @@
 .header-wrapper {
     position: relative;
     background: #EAEAEA;
+    background-image: linear-gradient(to right,rgba(245,245,245,.7),rgba(245,245,245,.7)), url(./bgs.svg);
     background-size: cover;
     background-position: center;
     height: 100vh;
