@@ -1,7 +1,7 @@
 import "./Contact.css";
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import ContactForm from "../../components/ContactForm/ContactForm";
+// import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Contact = () => {
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
           Cellphone Number: <a href="tel: 0096176345405">+961 76-345405</a>
         </p>
         <br />
-        <h3 className="media-tilte">Social Media</h3>
+        <h3 className="media-title">Social Media</h3>
         <div className="media">
           <a href="https://github.com/bakhosRachwan" target="blank">
             <AiFillGithub size="4rem" />

@@ -13,8 +13,8 @@ import tailwindcss from "./skillsSvg/tailwindcss-logo.svg";
 import chakraui from "./skillsSvg/chakra-ui-logo.svg";
 const Skills = () => {
   return (
-    <div className="skills" id="skills">
-      <h1>Experienced in</h1>
+    <div className="skills bg-light" id="skills">
+      <h1>EXPERIENCED IN</h1>
       <div className="technologies">
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"

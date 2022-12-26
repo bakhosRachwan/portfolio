@@ -29,35 +29,35 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <div className="nav-link">
-                                <Link to="/" style={{textDecoration: "none"}}>
+                                <Link to="/" style={{textDecoration: "none", color: "#111", fontWeight: "700"}}>
                                     Home
                                 </Link>
                             </div>
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
-                                <Link to="/about" style={{textDecoration: "none"}}>
+                                <Link to="/about" style={{textDecoration: "none", color: "#111", fontWeight: "700"}}>
                                     About Me
                                 </Link>
                             </div>
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
-                                <Link to="/projects" style={{textDecoration: "none"}}>
+                                <Link to="/projects" style={{textDecoration: "none", color: "#111", fontWeight: "700"}}>
                                     Projects
                                 </Link>
                             </div>
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
-                                <Link to="/skills" style={{textDecoration: "none"}}>
+                                <Link to="/skills" style={{textDecoration: "none", color: "#111", fontWeight: "700"}}>
                                     Skills
                                 </Link>
                             </div>
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
-                                <Link to="/contact" style={{textDecoration: "none"}}>
+                                <Link to="/contact" style={{textDecoration: "none", color: "#111", fontWeight: "700"}}>
                                     Contact Me
                                 </Link>
                             </div>

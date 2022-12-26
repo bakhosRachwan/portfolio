@@ -15,10 +15,10 @@ const Particle = () => {
                     }
                 },
                 shape: {
-                    type: "circle",
+                    type: "triangle",
                     stroke: {
                         width: 6,
-                        color: "#1dba9e"
+                        color: "#FACF0F"
                     }
                 } 
             }

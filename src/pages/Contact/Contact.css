@@ -8,15 +8,16 @@
 }
 .contact{
     height: 100vh;
-    background: rgb(195,231,232);
-    background: linear-gradient(230deg, rgba(195,231,232,1) 10%, rgba(214,202,228,1) 37%, rgba(230,177,224,1) 60%, rgba(250,183,147,1) 90%); 
-    color:#1dba9e;
+    background: #eaeaea;
+    color:#111;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contact h1{
     text-transform: uppercase;
+    font-weight: 700;
+    
 }
 .subtitle{
     font-size: 1.2rem;
@@ -24,9 +25,21 @@
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
+    font-weight: 600;
+    color: #333;
+}
+p{
+    font-weight: 600;
+    color: #333;
+}
+a{
+    color: #facf0f;
 }
 .media-title{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    font-weight: 700;
+    color: #333;
+    
 }
 @media(max-width: 768px){
     /* .contact{
