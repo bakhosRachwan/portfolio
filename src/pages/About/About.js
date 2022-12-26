@@ -5,7 +5,7 @@ const About = () => {
         <div className="about bg-light" id="about">
             <h1 className="title">ABOUT ME</h1>
             <div className="para-text">
-                <p>I'm Bakhos Ibrahim-Rachwan I graduated from University of Balamand with B.Eng. in Mechanical Engineering.
+                <p>I'm Bakhos Rachwan graduated from University of Balamand with B.Eng. in Mechanical Engineering.
                 Refusing to wait helplessly for a job oppurtunity during the Covid-19 pandemic.
                     </p>
                 <p>I joined an immersive bootcamp provided by Re:Coded, which has an acceptance rate of less than 6%. During the bootcamp I learned technologies like Javascript, CSS, HTML and ReactJS.

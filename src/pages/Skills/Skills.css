@@ -13,7 +13,7 @@
 .skills h1 {
   margin: 6% 0 0 0;
   font-weight: 700;
-    color: #111;
+  color: #111;
 }
 .technologies {
   margin: 100px 0 0 0px;
@@ -48,8 +48,8 @@
   text-align: center;
 }
 .text {
-  background-color: #5589e2;
-  color: white;
+  background-color: #facf0f;
+  color: #333;
   font-size: 16px;
   border-radius: 14px;
   padding: 16px 32px;
