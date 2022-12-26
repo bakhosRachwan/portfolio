@@ -1,0 +1,13 @@
+.experience{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eaeaea;
+}
+.title{
+    margin: 0 40px;
+    font-weight: 700;
+    color: #111;
+}
